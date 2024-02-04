@@ -67,10 +67,10 @@ body{
 #marks-list{
     display: flex;
     flex-direction: column;
-    gap: 0.7rem;
+    gap: 0.5rem;
     color: #fff;
 }
 
 #marks-list p:first-child{
-    margin-top: 1.5rem;
+    margin-top: 1.4rem;
 }
