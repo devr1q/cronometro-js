@@ -15,7 +15,7 @@ const formatTime = (time) => {
 }
 
 const addMarkToList = (markIndex, markTime) => {
-    markslist.innerHTML += '<p>Marca '${markIndex}: ${formatTime(markTime)}</p>';
+    markslist.innerHTML += '<p>Marca ${markIndex}: ${formatTime(markTime)}</p>'
 }
 const markTime = () => {
     marks.push(timer);
